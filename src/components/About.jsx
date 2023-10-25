@@ -4,9 +4,9 @@ export default function about() {
 
     return (
 
-        <div>
+        <div className="bg-[#c1edf8]">
 
-            <div className="container mx-auto max-w-[1440px] px-[125px] py-[90px] bg-[#c1edf8] ">
+            <div className="container mx-auto px-[125px] py-[90px]  ">
 
                 <h1 className="text-[40px] font-bold">About us</h1>
 

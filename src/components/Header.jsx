@@ -3,15 +3,15 @@ import React from "react";
 export default function header() {
 
     return (
-        <div>
+        <>
 
-            <div className=" container mx-auto  px-[98px] h-[72px]   max-w-[1440px] py-[9px] flex  justify-between">
+            <div className=" container mx-auto  px-[98px] h-[72px]   py-[9px] flex  justify-between">
 
-                <div>
+                
 
-                    <img className="w-[175px] " src="assests/images/QuickFunds.png" alt="logo" />
+                    <img className="  " src="assests/images/QuickFunds.png" alt="logo" />
 
-                </div>
+                
 
                 <ul className="flex justify-center gap-x-12">
                     <li className="text-2xl font-normal border-b-2 border-black ">Home</li>
@@ -20,9 +20,9 @@ export default function header() {
                     <li className="text-2xl font-normal">About us</li>
                 </ul>
 
-                <div>
+                
                     <button className="w-[126px] h-[48px] py-3 px-5 bg-[#2A6877] rounded-[50px] text-white">Contact Us</button>
-                </div>
+               
 
             </div>
             {/* header end  */}
@@ -55,7 +55,7 @@ export default function header() {
 
 
 
-        </div>
+        </>
 
     )
 

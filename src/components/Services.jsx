@@ -4,14 +4,15 @@ import React from "react";
 export default function services(){
 
     return(
-<div>
+<div >
+  <div className="bg-[#cef5ec] " >
 
-    <div className="conatiner mx-auto max-w-[1440px] h-[613px] px-[125px] bg-[#cef5ec]  ">
+    <div className="container mx-auto  h-[613px] px-[125px]   ">
 
       
         <h1 className="text-[40px] py-[36px]  font-bold text-center">Our Services</h1>
 
-      <div className="flex">
+      <div className="flex gap-4">
 
         <div className=" grid justify-items-center">
             <img className="py-[17px]" src="assests/images/5.png" alt="img"/>
@@ -55,6 +56,8 @@ export default function services(){
 
 
     </div>
+  </div>
+
 
 
     <div className="container mx-auto max-w-[1440px] py-[74px]">

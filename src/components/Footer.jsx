@@ -5,9 +5,9 @@ export default function footer() {
     return(
 
 
-<div>
+<div className=" bg-black">
 
-    <div className="conatiner mx-auto  max-w-[1440px] px-[158px] bg-black flex justify-between">
+    <div className="container mx-auto  px-[158px] flex justify-between">
 
 
         <div className="py-[128px]  ">
